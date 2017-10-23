@@ -1,0 +1,278 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+   .container-fluid {
+
+    background-image: url(../images/microfoon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   }
+
+   h1,h2 {
+       color: white;
+       font-family: raleway;
+       text-align: center;
+
+        margin-bottom: 40px;
+
+   }
+
+   h2{
+
+    margin-top: -25px; 
+
+   }
+   .container-fluid2 {
+
+    background-color: rgba(253, 246, 141, 0.5);
+    height: 170px;
+    margin-top: 50px;
+   
+    
+    
+    
+   }
+
+   .font15 {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+    
+
+   }
+
+   .font16 {
+    color: rgb(253, 246, 141);
+    font-size: 18px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+
+   }
+
+   .card  {
+
+    height:50%; 
+    width:70%; 
+    margin: -20px -50px; 
+    top:50%; 
+    left:25%;
+    right:25%;
+    
+   
+   
+
+   }
+
+
+    #knop {
+        width: 140px;
+        height: 140px;
+        background-image: url(../images/ed.jpg);
+        background-position: center;
+        background-size: 195%;
+        background-repeat: no-repeat;  
+        margin:auto;
+        display:block;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 50%;
+        border: none;
+        
+        
+        
+      }
+      
+        
+       
+    
+
+    #knop2 {
+        width: 140px;
+        height: 140px;
+        background-image: url(../images/bruno.jpg);
+        background-position: center;
+        background-size: 170%;
+        background-repeat: no-repeat; 
+        margin:auto;
+        display:block;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 50%;
+        border: none;
+        
+     }
+       
+    #knop3 {
+        width: 140px;
+        height: 140px;
+        background-image: url(../images/bazart.jpg); 
+        background-position: center;
+        background-size: 180%;
+        background-repeat: no-repeat;  
+        margin:auto;
+        display:block;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 50%;
+        border: none;
+     }
+
+
+    .list-group {
+
+    text-align: center;
+    font-family: raleway;
+    margin-bottom: 10px;
+    margin:auto;
+    display:block;
+    
+}
+
+       
+    
+    
+    #kopen {
+        width: 140px;
+        height: 140px;
+        background-image: url(../images/winkelkar.png);
+        background-position: center;
+        background-size: 70%;
+        background-repeat: no-repeat;  
+        margin:auto;
+        display:block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        border-radius: 50%;
+        
+        
+        
+        
+      }
+    
+    #betalen{
+
+       text-align: center;
+       line-height: 40px;
+       
+
+    }
+
+   article {
+       background-color: lightgray;
+       margin-bottom: 0.75rem;
+   }
+
+   .image.full
+   {
+       width:40%;
+       margin-bottom: 2em;
+       margin-left: 100px;
+   }
+
+   #tweet {
+
+    font-family: raleway;
+    margin-bottom: 10px;
+   }
+
+    .quote {
+
+    font-weight: bold;
+    text-align: center;
+
+    }
+    .blockquote-footer {
+        
+     text-align: center;
+     margin-top: -10px;
+    }
+
+    #socialmedia {
+
+        margin:auto;
+        display:block;
+
+
+    }
+
+#facebook {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url(../images/fb.png);
+    background-position: center;
+    background-size: 100%;
+    margin: 10px;
+   
+   
+
+
+}
+#insta {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url(../images/insta.png);
+    background-position: center;
+    background-size: 150%;
+    margin: 10px;
+
+
+}
+#website {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url(../images/website.png);
+    background-position: center;
+    background-size: 100%;
+    margin: 10px;
+
+
+}
+
+.table {
+
+    font-weight: bold;
+    font-family: raleway;
+    margin-bottom: 10px;
+
+}
+
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
